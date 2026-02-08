@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Android Developer Portfolio - Showcasing innovative mobile applications and Android development expertise">
+  <meta name="author" content="Android Developer">
+  
+  <!-- Open Graph for social sharing -->
+  <meta property="og:title" content="Android Developer Portfolio">
+  <meta property="og:description" content="Explore my Android development projects and expertise">
+  <meta property="og:type" content="website">
+  
+  <title>Android Developer Portfolio</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Roboto:wght@700&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/sections.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/game.css">
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to main content</a>
+  
+  <header id="header">
+    <nav class="nav-container">
+      <div class="logo">AD</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="game-btn" class="game-button" aria-label="Play Game">
+        🎮 Play
+      </button>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+      <div class="hero-content">
+        <h1 class="hero-title">Android Developer</h1>
+        <p class="hero-subtitle">Building innovative mobile experiences with Kotlin & Jetpack Compose</p>
+        <a href="#projects" class="cta-button">View My Work</a>
+      </div>
+      <div class="hero-decoration"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>I'm a passionate Android developer with expertise in building scalable, user-friendly mobile applications. With a strong foundation in modern Android development practices, I specialize in creating seamless user experiences using Kotlin, Jetpack Compose, and the latest Android SDK features.</p>
+            <p>My approach combines clean architecture principles with material design guidelines to deliver apps that are both beautiful and performant. I'm committed to writing maintainable code and staying current with the evolving Android ecosystem.</p>
+            <div class="about-stats">
+              <div class="stat">
+                <span class="stat-number">5+</span>
+                <span class="stat-label">Years Experience</span>
+              </div>
+              <div class="stat">
+                <span class="stat-number">15+</span>
+                <span class="stat-label">Apps Published</span>
+              </div>
+              <div class="stat">
+                <span class="stat-number">100K+</span>
+                <span class="stat-label">Total Downloads</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+      <div class="container">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+          
+          <!-- Project 1 -->
+          <article class="project-card">
+            <div class="project-image">
+              <div class="project-placeholder">📱</div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">TaskFlow Pro</h3>
+              <p class="project-description">A productivity app with smart task management, calendar integration, and real-time collaboration features. Built with Jetpack Compose and Room database.</p>
+              <ul class="project-tech">
+                <li>Kotlin</li>
+                <li>Jetpack Compose</li>
+                <li>Room</li>
+                <li>Coroutines</li>
+              </ul>
+              <div class="project-links">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link">
+                  <span class="icon">💻</span> GitHub
+                </a>
+                <a href="https://play.google.com" target="_blank" rel="noopener noreferrer" class="project-link">
+                  <span class="icon">📱</span> Play Store
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card">
+            <div class="project-image">
+              <div class="project-placeholder">🎵</div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">SoundWave Music</h3>
+              <p class="project-description">A modern music streaming app with offline playback, personalized playlists, and beautiful visualizations. Features custom animations and Material Design 3.</p>
+              <ul class="project-tech">
+                <li>Kotlin</li>
+                <li>ExoPlayer</li>
+                <li>Material 3</li>
+                <li>Firebase</li>
+              </ul>
+              <div class="project-links">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link">
+                  <span class="icon">💻</span> GitHub
+                </a>
+                <a href="https://play.google.com" target="_blank" rel="noopener noreferrer" class="project-link">
+                  <span class="icon">📱</span> Play Store
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card">
+            <div class="project-image">
+              <div class="project-placeholder">💪</div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">FitTrack Wellness</h3>
+              <p class="project-description">Comprehensive fitness tracking app with workout plans, nutrition tracking, and progress analytics. Integrates with Google Fit and wearable devices.</p>
+              <ul class="project-tech">
+                <li>Kotlin</li>
+                <li>MVVM</li>
+                <li>Google Fit API</li>
+                <li>Charts</li>
+              </ul>
+              <div class="project-links">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link">
+                  <span class="icon">💻</span> GitHub
+                </a>
+                <a href="https://play.google.com" target="_blank" rel="noopener noreferrer" class="project-link">
+                  <span class="icon">📱</span> Play Store
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="project-card">
+            <div class="project-image">
+              <div class="project-placeholder">🛒</div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">ShopEasy Commerce</h3>
+              <p class="project-description">E-commerce platform with product browsing, secure payments, and order tracking. Features smooth animations and intuitive checkout flow.</p>
+              <ul class="project-tech">
+                <li>Kotlin</li>
+                <li>Retrofit</li>
+                <li>Stripe API</li>
+                <li>Navigation</li>
+              </ul>
+              <div class="project-links">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link">
+                  <span class="icon">💻</span> GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+      <div class="container">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-grid">
+          
+          <div class="skill-category">
+            <h3 class="category-title">
+              <span class="category-icon">💻</span>
+              Languages
+            </h3>
+            <ul class="skill-list">
+              <li class="skill-tag">Kotlin</li>
+              <li class="skill-tag">Java</li>
+              <li class="skill-tag">SQL</li>
+              <li class="skill-tag">XML</li>
+            </ul>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="category-title">
+              <span class="category-icon">🎨</span>
+              Frameworks & UI
+            </h3>
+            <ul class="skill-list">
+              <li class="skill-tag">Jetpack Compose</li>
+              <li class="skill-tag">Material Design</li>
+              <li class="skill-tag">View Binding</li>
+              <li class="skill-tag">Data Binding</li>
+            </ul>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="category-title">
+              <span class="category-icon">🏗️</span>
+              Architecture
+            </h3>
+            <ul class="skill-list">
+              <li class="skill-tag">MVVM</li>
+              <li class="skill-tag">Clean Architecture</li>
+              <li class="skill-tag">Repository Pattern</li>
+              <li class="skill-tag">Dependency Injection</li>
+            </ul>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="category-title">
+              <span class="category-icon">🔧</span>
+              Tools & Libraries
+            </h3>
+            <ul class="skill-list">
+              <li class="skill-tag">Android Studio</li>
+              <li class="skill-tag">Git / GitHub</li>
+              <li class="skill-tag">Retrofit</li>
+              <li class="skill-tag">Room Database</li>
+              <li class="skill-tag">Coroutines</li>
+              <li class="skill-tag">Hilt / Dagger</li>
+              <li class="skill-tag">Firebase</li>
+              <li class="skill-tag">RxJava</li>
+            </ul>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="category-title">
+              <span class="category-icon">🧪</span>
+              Testing
+            </h3>
+            <ul class="skill-list">
+              <li class="skill-tag">JUnit</li>
+              <li class="skill-tag">Espresso</li>
+              <li class="skill-tag">MockK</li>
+              <li class="skill-tag">UI Testing</li>
+            </ul>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="category-title">
+              <span class="category-icon">☁️</span>
+              Backend & APIs
+            </h3>
+            <ul class="skill-list">
+              <li class="skill-tag">REST APIs</li>
+              <li class="skill-tag">GraphQL</li>
+              <li class="skill-tag">Firebase</li>
+              <li class="skill-tag">Google APIs</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-content">
+          <p class="contact-text">I'm always interested in hearing about new projects and opportunities. Whether you have a question or just want to say hi, feel free to reach out!</p>
+          
+          <div class="contact-links">
+            <a href="mailto:developer@example.com" class="contact-link">
+              <span class="contact-icon">📧</span>
+              <span class="contact-label">developer@example.com</span>
+            </a>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="contact-link">
+              <span class="contact-icon">💻</span>
+              <span class="contact-label">GitHub</span>
+            </a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="contact-link">
+              <span class="contact-icon">💼</span>
+              <span class="contact-label">LinkedIn</span>
+            </a>
+          </div>
+
+          <a href="#" class="resume-button" download>
+            📄 Download Resume
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Android Developer. Built with passion and code.</p>
+      <p class="footer-note">Optimized for performance • Accessible • Mobile-First</p>
+    </div>
+  </footer>
+
+  <!-- Game Overlay -->
+  <div id="game-overlay" class="game-overlay" hidden>
+    <div class="game-container">
+      <button id="game-close" class="game-close" aria-label="Close game">×</button>
+      <div id="game-instructions" class="game-instructions">
+        <h2>Android Tap Challenge</h2>
+        <p>Tap the <strong>Android robot</strong> as many times as you can in 30 seconds!</p>
+        <p class="game-controls">🖱️ Click on desktop | 👆 Tap on mobile</p>
+        <button id="game-start" class="game-start-btn">Start Game</button>
+      </div>
+      <canvas id="game-canvas" width="600" height="400" hidden></canvas>
+      <div id="game-score" class="game-score" hidden>Score: <span id="score-value">0</span></div>
+      <div id="game-timer" class="game-timer" hidden>Time: <span id="timer-value">30</span>s</div>
+      <div id="game-over" class="game-over" hidden>
+        <h2>Game Over!</h2>
+        <p class="final-score">Final Score: <span id="final-score-value">0</span></p>
+        <button id="game-restart" class="game-start-btn">Play Again</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/utils.js" defer></script>
+  <script src="js/main.js" defer></script>
+  <script src="js/game.js" defer></script>
+</body>
+</html>
